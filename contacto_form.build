@@ -1,0 +1,23 @@
+nombre:
+  '#type': textfield
+  '#title': Nombre
+  '#title_display': before
+  '#required': true
+  '#required_error': 'Debe indicar su nombre'
+apellidos:
+  '#type': textfield
+  '#title': Apellidos
+  '#title_display': before
+email:
+  '#type': email
+  '#title': E-mail
+  '#title_display': before
+  '#required': true
+  '#required_error': 'Debe indicar su email'
+actions:
+  '#type': webform_actions
+  '#title': 'Submit button(s)'
+  '#submit__label': Enviar
+  '#submit__attributes':
+    class:
+      - 'btn__general search__button'

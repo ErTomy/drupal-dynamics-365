@@ -1,0 +1,6 @@
+name: Formulario CRM
+description: Formulario de contacto conectado a CRM
+package: ErTomy
+type: module
+version: 1.0
+core: 8.x
